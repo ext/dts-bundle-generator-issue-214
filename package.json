@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "dts-bundle-generator --inline-declare-global src/foo.ts -o dist/foo.d.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.4",
+    "dts-bundle-generator": "^6.12.0",
+    "typescript": "^4.7.4"
+  }
+}
